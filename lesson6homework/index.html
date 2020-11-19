@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 6 Homework</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h1 class="header__name">Contact Manager</h1>
+		</div>
+		<form id="myform">
+			<div class="main">
+				<div class="main__first-name">
+					<p class="main__first-name-p">First Name</p>
+					<input class="main__first-input">
+				</div>
+
+				<div class="main__last-name">
+					<p class="main__last-name-p">Last Name</p>
+					<input class="main__last-input">
+				</div>
+
+				<div class="main__adress">
+					<p class="main__adress-p">Address</p>
+					<textarea class="main__adress-input"></textarea>
+				</div>
+
+				<div class="main__city">
+					<p class="main__city-p">City</p>
+					<input class="main__city-input">
+				</div>
+
+				<div class="main__state">
+					<p class="main__state-p">State</p>
+					<select class="main__state-select">
+						<option>Denver</option>
+						<option>Colorado</option>
+						<option>Iowa</option>
+						<option>Mississippi</option>
+						<option>Alaska</option>
+					</select>
+				</div>
+
+				<div class="main__zip">
+					<p class="main__zip-p">Zip</p>
+					<input class="main__zip-input" type=text maxlength="5">
+				</div>
+
+				<div class="main__homephone">
+					<p class="main__homephone-p">Home Phone</p>
+					<input class="main__homephone-input">
+				</div>
+
+				<div class="main__workphone">
+					<p class="main__workphone-p">Work Phone</p>
+					<input class="main__workphone-input">
+				</div>
+
+				<div class="main__faxnumber">
+					<p class="main__faxnumber-p">Fax number</p>
+					<input class="main__faxnumber-input" type="text" maxlength="8">
+				</div>
+
+				<div class="main__website">
+					<p class="main__website-p">Website</p>
+					<fieldset class="main__website-fieldset">
+						<p>URL:</p><input class="main__website-input1">
+
+						<p>Link Name:</p><input class="main__website-input2">
+					</fieldset>
+				</div>
+
+				<div class="main__email">
+					<p class="main__email-p">Email Adress</p>
+					<input class="main__email-input">
+				</div>
+
+				<div class="main__contact">
+					<p class="main__contact-p">When is the best time to contact you?</p>
+					<div>
+						<p><input class="main__contact-input" type=radio name="contact" checked>Morning</p>
+						<p><input class="main__contact-input" type=radio name="contact">Afternoon</p>
+						<p><input class="main__contact-input" type=radio name="contact">Evening</p>
+					</div>
+				</div>
+
+				<div class="main__contact2">
+					<p class="main_contact2-p">What is the best way to contact you</p>
+					<div>
+						<p><input class="main__contact2-input" type=radio name="contact2" checked>Phone</p>
+						<p><input class="main__contact2-input" type=radio name="contact2">Email</p>
+						<p><input class="main__contact2-input" type=radio name="contact2">Fax</p>
+					</div>
+				</div>
+
+				<div class="main__message">
+					<p>Message</p>
+					<textarea class="main__message-textarea"></textarea>
+				</div>
+		</form>
+	</div>
+	<div class="footer">
+		<div class="footer__submit-reset">
+			<input type="submit" сlass="footer__submit" form="myform">
+			<input type="reset" сlass="footer__reset" form="myform">
+		</div>
+	</div>
+
+	</div>
+</body>
+
+</html>
